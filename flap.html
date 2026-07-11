@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flappy Bird Clone</title>
+    <style>
+        body {
+            
+            margin: 0;
+            background-color: #222;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+            font-family: sans-serif;
+        }
+        canvas {
+            border: 4px solid #fff;
+            background-image: url('Img/fixback.png');
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+
+            background-repeat: no-repeat;  /* Stops the image from tiling */
+            background-size: 100% 100%;    
+            background-position: center;
+            
+        }
+    </style>
+</head>
+<body>
+
+    <canvas id="gameCanvas" width="400" height="600"></canvas>
+
+    <script src="mainflap.js"></script>
+
+</body>
+</html>
